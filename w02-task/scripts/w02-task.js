@@ -3,11 +3,17 @@
 /* Step 1 - Setup type tasks - no code required */
 
 /* Step 2 - Variables */
+const fullName = 'Levi Gospel';
+const currentYear = '2024';
+const profilePicture = 'images/mypic.jpg';
 
 
 
 
 /* Step 3 - Element Variables */
+const nameElement = document.getElementById('name');
+const foodElement = document.getElementById('food');
+const yearElement = document.querySelector('#year')
 
 
 
