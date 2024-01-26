@@ -19,7 +19,7 @@ const imageElement = document.querySelector('img');
 nameElement.textContent = fullName;
 yearElement.textContent = currentYear;
 imageElement.setAttribute('src', profilePicture);
-imageElement.setAttribute('alt', `This is ${fullName}. He is a tech guy.`);
+imageElement.setAttribute('alt', `Profile image of ${fullName}.`);
 
 
 /* Step 5 - Array */
@@ -31,6 +31,21 @@ let newFood = 'Pottage';
 favFoods.push(newFood);
 foodElement.innerHTML += `<br>${favFoods}`;
 
+// One way to remove 1st item in an array
+/*let firstFavFood = 0;
+favFoods.splice(firstFavFood, 1);
+foodElement.innerHTML += `<br>${favFoods}`;*/
+
+favFoods.shift();
+foodElement.innerHTML += `<br>${favFoods}`;
+
+favFoods.pop();
+foodElement.innerHTML += `<br>${favFoods}`;
+
+// One way to remove last time in an array
+/*let lastFavFood = 6;
+favFoods.splice(lastFavFood);
+foodElement.innerHTML += `<br>${favFoods}`;*/
 
 
 
