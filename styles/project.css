@@ -94,4 +94,8 @@ footer {
   .container {
     max-width: 300px;
   }
+
+  #amount {
+    max-width: 280px;
+  }
 }
