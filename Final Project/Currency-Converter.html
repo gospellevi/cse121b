@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="/Final Project/styles/Currency_Converter.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Curren$yConverter💸</h1>
+    <div class="converter-form">
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" min="0" placeholder="Enter amount">
+      <label for="baseCurrency">From:</label>
+      <select id="baseCurrency"></select>
+      <label for="targetCurrency">To:</label>
+      <select id="targetCurrency"></select>
+      <button id="convertButton">Convert</button>
+      <button id="resetButton">Reset</button>
+    </div>
+    <div class="result">
+      <p id="convertedAmount"></p>
+      <p id="conversionDate"></p>
+    </div>
+    <footer>&copy;<span id="year"></span> | Levi's Final Project - Currency Converter | CSE 121b</footer>
+  </div>
+
+  <script src="/Final Project/scripts/Currency-Converter.js"></script>
+</body>
+
+</html>
